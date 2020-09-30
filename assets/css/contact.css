@@ -1,0 +1,91 @@
+.single-form {
+    margin-top: 30px;
+}
+
+.contact-area{
+    z-index: 100;
+    margin: 100px auto;
+}
+
+.single-form input, .single-form textarea {
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 0 25px;
+    font-size: 16px;
+    color: #8a8fa3;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.footer-area::before{
+    
+}
+
+textarea {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textarea;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    -webkit-rtl-ordering: logical;
+    flex-direction: column;
+    resize: auto;
+    cursor: text;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
+    border-image: initial;
+    padding: 2px;
+}
+
+
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+.contact-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px 35px;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.contact-box .contact-icon i {
+    font-size: 48px;
+    color: #754ef9;
+}
+
+[class^="lni-"], [class*=" lni-"] {
+    font-family: 'LineIcons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
