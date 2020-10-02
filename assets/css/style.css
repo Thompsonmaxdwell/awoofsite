@@ -1268,6 +1268,9 @@ p {
 /*===========================
        09.BLOG  css 
 ===========================*/
+.project .box{
+   margin-bottom:30px;
+}
 .single-blog .blog-image img {
   border-radius: 10px;
   width: 100%; }
@@ -1284,7 +1287,7 @@ p {
     .single-blog .blog-content .meta li a {
       color: #6A6972; }
   .single-blog .blog-content .text {
-    font-size: 23px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     color: #2E2E2E;
@@ -1314,6 +1317,12 @@ p {
     .subscribe-area {
       padding: 10px 30px 60px; } }
 
+      .Business_online{
+        width:80%;
+        margin:0 auto;
+        padding:13px;
+        text-align:center;
+      }
 .subscribe-content .subscribe-title {
   font-size: 35px;
   font-weight: 700; }
